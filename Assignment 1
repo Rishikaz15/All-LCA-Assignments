@@ -1,1 +1,31 @@
-
+#Write a python program to create a Dictionary, Tuple and List of students and perform the 
+Following operations: Add, Delete, Update. 
+#Dictionary of students
+students_dict={1:"Riya",2:"Rahul",3:"Ram"}
+#Add
+students_dict[4]="Siya"
+#Update
+students_dict[2]="Ananya"
+#Delete
+del students_dict[3]
+print("Dictionary:",students_dict)
+# List of students
+students_list = ["Riya", "Rahul", "Ram"]
+# Add
+students_list.append("Siya")
+# Update
+students_list[1] = "Ananya"
+# Delete
+students_list.remove("Ram")
+print("List:", students_list)
+# Tuple of students
+students_tuple = ("Riya", "Rahul","Ram")
+t1= list(students_tuple)
+# Add
+t1.append("Siya")
+# Update
+t1[1] = "Ananya"
+#Delete
+t1.remove("Ram")
+students_tuple=tuple(t1)
+print("Tuple:",students_tuple)
