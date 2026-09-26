@@ -1,1 +1,12 @@
+#Write a Python program that accepts the length of three sides of a triangle as inputs. 
+#The program should indicate whether or not the triangle is a right-angled triangle using function.  
+def triangle(a, b, c):
+    if a*a + b*b == c*c:
+        print("Right-angled triangle")
+    else:
+        print("Not a right-angled triangle")
 
+a = int(input("Enter first side: "))
+b = int(input("Enter second side: "))
+c = int(input("Enter third side: "))
+triangle(a,b,c)
